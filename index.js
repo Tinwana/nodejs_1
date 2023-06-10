@@ -8,7 +8,7 @@ app.get('/', (req, res) =>{
     console.log(req, res);
     
     return res.send(
-            `<div class="login">
+            `<div class="login ">
             <p>Login with Social Media or Manually</p>
             <div class="login__app login--facebook">
                 <i class="fa-brands fa-facebook-f"></i>
